@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+html {
+	height: 100%;
+	font-size: 14px;
+}
+
+img, object, embed, video {
+	max-width: 98%;
+	float: right;
+	padding-top: 1em;
+	padding-bottom: 10px;
+}
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 81.9%;
+	padding-left: 4.55%;
+	padding-right: 4.55%;
+	clear: none;
+	float: none;
+	min-height: 100%;
+}
+
+
+article {
+	width: 95%;
+	float: none;
+	font-size: 0.8em;
+	text-align: left;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	padding-left: 20px;
+}
+
+/*Formatting for Nav Bar*/
+
+nav {
+	width: 25%;
+	float: left;
+	margin: 6% 2% 0% 0%;
+}
+
+nav ul li {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 0.8em;
+}
+
+nav ul li a {
+	color: #222;
+	text-decoration: none;
+	display: block;
+	margin-bottom: 8%;
+}
+nav ul li a:visited {
+	color: #222;
+}
+nav ul li a:hover {
+	background-color: #b34a48;
+	color: white;
+}
+nav ul li a:focus {
+	outline: thin dotted;
+}
+nav ul li a:hover, nav ul li a:active {
+	outline: 0;
+}
+
+nav ul li {
+	display: table-cell;
+	width: 15%;
+	text-align: center;
+	margin-right: 2%;
+	border: thin solid rgba(127,96,17,1.00);
+	border-collapse: collapse;
+}
+nav ul li a {
+	margin-bottom: 0;
+}
+nav {
+	display: table;
+	width: 96%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+	float: none;
+}
+nav ul {
+	display: table-row;
+	margin: 0;
+}
+nav ul li:last-of-type {
+	margin-right: 0%;
+}
+
+/*end navbar formatting*/
+
+header img {
+	float: none;
+	width: 96%;
+	margin: 2% 2% 0% 2%;
+}
+
+
+/*This styles the body text*/
+
+body p, body address {
+	margin: 3.5% 1%;
+	font-size: 1em;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-style: normal;
+	height: 100%;
+}
+
+.contactimgrt {
+		float: right;
+		margin-left: 3px;	
+	}
+	
+	.contactimglt {
+	width: 40%;
+	float: left;
+	padding-right: 10px;
+	
+	}
+
+/*Footer Formatting Start*/
+
+footer {
+	text-align: center;
+	font-size: 0.7em;
+	margin-top: 4%;
+	border-top: 3px outset #cf7b79;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	clear: both;
+	padding-bottom: 20px;
+}
+
+/*Footer formatting ends*/
+
+/* =============================================
+	Desktop layout styles used by  devices
+	769px and larger.
+   =============================================
+*/
+
+@media only screen and (min-width: 769px) {
+html, body {
+	font-size: 20px;
+}
+
+html {
+	background-color: #953e3c;
+	margin: 0px auto;
+}
+body {
+	width: 88.2%;
+	max-width: 900px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: 0px auto auto auto;
+	clear: none;
+	float: none;
+	background-color: white;
+	-moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	-webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+}
+
+	.resort{
+	width: 100%;
+	float: none;
+	padding-left: 9px;
+	}
+
+	
+	.contactimgrt {
+		float: right;
+		margin-left: 3px;	
+	}
+	
+	.contactimglt {
+		width: 40%;
+		float: left;
+		padding-right: 10px;
+	
+	}
+	
+	
